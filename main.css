@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    font-family:'Montserrat',sans-serif;}
+
+ul {
+    list-style-type: none; }
+
+figcaption{
+    color: blue;}
+
+
+.background{
+    background-image:  url("images/back.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: -190em;}
+
+.background1{ 
+    background-image: url("images/clouds-dawn-nature-ocean-561463.jpg"),url("images/dandelion-nature-sunlight-54300.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top,bottom;
+    background-blend-mode: darken;}
+
+.background2{ 
+    background:rgb(221, 214, 214) url("images/blue-lake-nature-water-40465.jpg");
+    background-size: cover;
+    background-blend-mode: lighten;}
+
+.background3{
+    background-color:rgb(235, 235, 235);}
+
+
+
+.container{
+    text-align: center;
+    color: whitesmoke;
+    padding-left: 2em;
+    padding-right: 2em;}
+
+.container1{
+    font-size: 1em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-left: 4em;
+    padding-right: 4em;}
+
+.container2{
+    text-align: center;
+    color:black;
+    padding:2em 2em ;
+    font-size: 1em;}
+    
+.container3{
+    text-align: center;
+    color:black;
+    padding:4em 4em ;
+    font-size: 2em;}
+
+
+
+.logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;}
+.logo img{
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align:left;}
+
+
+
+.head{
+    background-color: rgb(49, 39, 39);
+    display: flex;
+    margin-top: 0em;
+    justify-content: space-between;}
+
+
+.navilist{
+    position:sticky;
+    display: flex;}
+.navilist li{
+    padding: 20px;}
+.navilist li a{
+    text-decoration: none;
+    color: white;}
+.navilist li a:hover{
+    color: grey;}
+
+
+.a img{
+    width: 25%;
+    border:5px solid white;
+    border-radius:50%;}
+.a h1{
+    font: bold;
+    color:hsl(174, 84%, 53%);
+    font-size: 5em;}
+
+
+.b{
+    margin-top: 6em;
+    margin-bottom: 3em;}
+.b h2{
+    color: black;}
+.b a{
+    color: black;
+    text-decoration: none;}
+
+
+
+.box1{
+    background-blend-mode: lighten;
+    margin-top: 7em;}
+.box1 h2{
+    display:inline-block;
+    border: 4px solid white;
+    border-radius: 8px;
+    background-color: rgba(109, 70, 182,.5);
+    font-size: 4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2em;
+    padding-right: 2em;}
+.box1 ul{
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns:20% 20% 20%;
+    justify-content: space-between;
+    padding-right: 3em;
+    height: 31em;}
+.box1 ul li{
+    display: block;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: black;
+    background-color: grey;
+    opacity: .85;}
+.box1 p{
+    font-size: 1.5em;
+    padding: 0em 8em;}
+.box1 ul li p{
+    padding: 0em 3px;}
+.box1 ul li:nth-child(odd){
+    background-color: white;
+    opacity: .85;}
+
+
+
+.box3 {
+    margin-top: 8em;
+    border-radius: 3%;
+    height: 150px;}
+.box3 h2{
+    display:inline-block;
+    border: 4px solid white;
+    border-radius: 8px;
+    background-color:rgba(4, 252, 198, 0.75);
+    font-size: 4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2em;
+    padding-right: 2em;}
+.love {
+    margin:0em 8em;
+    display:grid;
+    grid-template-columns: 30% 30%;
+    justify-content: space-between;
+    align-items: center;   }
+.love img{
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+    height: 350px;
+    width: 390px;
+    opacity: .9;}
+.love a{
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;}
+
+
+
+.box2 ul{
+    margin-top: 20em;
+    display: grid;
+    grid-template-columns:25% 25% 25%;
+    justify-content: space-between;
+    padding:0em 4em ;}
+.box2 ul li figure img{
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    border: 9px double black;}
+.box2 ul li {
+    margin-top: 150px;
+    background-color:rgba(255, 255, 255, .92);
+    border-radius: 40%;
+    color: black;
+    border: 2px solid black;}
+.box2 ul li figure a{
+    font-size: 20px;}
+
+
+
+
+.btn1{
+    padding: 8px;
+    margin: 7px 0px;
+    border: 2px solid rgb(116, 91, 91);
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;}
+
+
+.btn2{
+    text-decoration: none;
+    padding: 8px;
+    margin: 7px 0px;
+    border: 2px solid rgb(116, 91, 91);
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;}
+
+
+.list{
+    padding-left: 2em;
+    text-align: left;
+    list-style: circle;}
+.list li{
+    padding:5px 0px;}
+
+
+.a1{
+    font-size: 2em;}
+
+
+.anxiety-logo img{
+    width: 25%;}
+.anxiety-logo h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:lightpink;
+    font-size: 5em;}
+
+
+.stress-logo img{
+    width: 25%;}
+.stress-logo h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:hsl(251, 89%, 48%);
+    font-size: 5em;}
+
+
+.dep-logo img{
+    width: 25%;}
+.dep-logo h1{
+    font-family: 'sans-serif';
+    color:black;
+    font-size: 5em;}
+
+
+.s1{
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns:30% 30%;
+    justify-content: space-between;
+    padding:1em 4em;
+    grid-gap: 1em;}
+
+
+.video{
+    display:flex;
+    justify-content: space-between;
+    padding: 2em 1em;}
+
+
+.form{
+    padding: 4em 35em 8em 40em;
+    justify-content: center;}
+
+
+#footer{ 
+background-color:rgb(49,39,39);
+font-size: 15px;
+font-family: HelveticaNeue-Light,-apple-system,AppleSDGothicNeo-Regular,'lucida grande',tahoma,verdana,arial,sans-serif,'Segoe UI Emoji','Segoe UI Symbol',Noto Color Emoji, NotoColorEmoji,EmojiSymbols,Symbola,Noto,'Android Emoji',AndroidEmoji,'Arial Unicode MS','Zapf Dingbats',AppleColorEmoji,'Apple Color Emoji';
+line-height: 1.6;
+text-align: center;
+margin: 3em auto;
+margin-bottom: 0em;
+padding: 7px 0;
+color: hsla(207,80%,100%,1);}
+#footer a{
+    color: white;
+    text-decoration: none;}
